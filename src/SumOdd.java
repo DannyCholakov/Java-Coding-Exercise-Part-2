@@ -16,15 +16,12 @@ public class SumOdd {
 //    If those conditions are not satisfied return -1 from the method to indicate invalid input.
 
     public static void main(String[] args) {
-        System.out.println(sumOdd(-1, 100));
+        System.out.println(sumOdd(2, 100));
     }
 
     public static boolean isOdd(int number) {
         if (number >= 0 && number != 0) {
-            if (number % 2 != 0) {
-                return true;
-            } else
-                return false;
+            return number % 2 != 0;
         } else return false;
     }
 
