@@ -25,9 +25,8 @@ public class NumberPalindrome {
             stored /= 10;
         }
 
-        if (number == reverse) {
-            return true;
-        } else {
+        if (number == reverse) return true;
+        else {
             return false;
         }
     }
