@@ -9,7 +9,7 @@ public class NumberPalindrome {
 
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome(1221));
+        System.out.println(isPalindrome(1222));
     }
 
     public static boolean isPalindrome(int number) {
@@ -25,9 +25,6 @@ public class NumberPalindrome {
             stored /= 10;
         }
 
-        if (number == reverse) return true;
-        else {
-            return false;
-        }
+        return number == reverse;
     }
 }
